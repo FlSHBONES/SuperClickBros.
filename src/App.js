@@ -11,7 +11,7 @@ class App extends Component {
     score: 0,
     highscore: 0
   };
-
+// --------------------------------------------------------------------------------------------------------------------------
   gameOver = () => {
     if (this.state.score > this.state.highscore) {
       this.setState({highscore: this.state.score}, function() {
@@ -21,11 +21,13 @@ class App extends Component {
     this.state.cards.forEach(card => {
       card.count = 0;
     });
-    alert(`Game Over!! Try Again!! \nscore: ${this.state.score}`);
+    alert(`You already Clicked on this Character! Game Over! Click any Character to Start again! \nscore: ${this.state.score}`);
     this.setState({score: 0});
     return true;
   }
 
+
+// --------------------------------------------------------------------------------------------------------------------------
   clickCount = id => {
     this.state.cards.find((o, i) => {
       if (o.id === id) {
@@ -33,6 +35,8 @@ class App extends Component {
           cards[i].count = cards[i].count + 1;
           this.setState({score : this.state.score + 1}, function(){
             console.log(this.state.score);
+            console.log(this.card.name);
+            
           });
           this.state.cards.sort(() => Math.random() - 0.5)
           return true; 
@@ -42,7 +46,10 @@ class App extends Component {
       }
     });
   }
-  // Map over this.state.cards and render a cardCard component for each card object
+  
+  
+
+// --------------------------------------------------------------------------------------------------------------------------
   render() {
     return (
       <Wrapper>
@@ -53,6 +60,7 @@ class App extends Component {
             id={card.id}
             key={card.id}
             image={card.image}
+            name={card.name}
           />
         ))}
       </Wrapper>

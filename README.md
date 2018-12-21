@@ -1,3 +1,30 @@
+
+Welcome to Super Click Bros!
+
+HOW TO PLAY:  
+
+There are a total of 72 Character Cards in this game.  The purpose of the game is to click on all 72 characters without ever clicking the same character twice.
+
+After each selection, the order of the charachters will shuffle.
+
+Do your best to remember everyone you clicked and try to get a score of 72 to win!
+
+Happy Clicking!
+
+ Shout out toNnintendo's Smashbros Website for all character assets used in this game.  Check it out at https://www.smashbros.com !
+
+
+
+
+-------------- React App info Below ---------------------
+
+
+
+
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
