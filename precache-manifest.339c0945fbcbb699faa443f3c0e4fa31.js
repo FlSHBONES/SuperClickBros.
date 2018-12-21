@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/SuperClickBros./static/css/main.ab6192f5.chunk.css"
   },
   {
-    "revision": "caaec6db5148b26e202796497754aa37",
+    "revision": "aa90f78d2d98b9f64d31f362e5c3bd80",
     "url": "/SuperClickBros./index.html"
   }
 ];
