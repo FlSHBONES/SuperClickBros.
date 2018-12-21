@@ -11,7 +11,7 @@ Do your best to remember everyone you clicked and try to get a score of 72 to wi
 
 Happy Clicking!
 
- Shout out toNnintendo's Smashbros Website for all character assets used in this game.  Check it out at https://www.smashbros.com !
+ Shout out to Nintendo's Smashbros Website for all character assets used in this game.  Check it out at https://www.smashbros.com !
 
 
 
