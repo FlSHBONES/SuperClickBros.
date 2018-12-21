@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/SuperClickBros./static/js/runtime~main.19f0b17e.js"
   },
   {
-    "revision": "e1148c336a74d6fced72",
-    "url": "/SuperClickBros./static/js/main.e1148c33.chunk.js"
+    "revision": "f8b9f56c9ecfeed500d1",
+    "url": "/SuperClickBros./static/js/main.f8b9f56c.chunk.js"
   },
   {
     "revision": "9c49b1657f794805e3dd",
     "url": "/SuperClickBros./static/js/1.9c49b165.chunk.js"
   },
   {
-    "revision": "e1148c336a74d6fced72",
+    "revision": "f8b9f56c9ecfeed500d1",
     "url": "/SuperClickBros./static/css/main.404bcafb.chunk.css"
   },
   {
-    "revision": "b83149afc734966cd0feed43ecf11f36",
+    "revision": "8178e8eb0289af7d4e6edfd56ab3078f",
     "url": "/SuperClickBros./index.html"
   }
 ];
